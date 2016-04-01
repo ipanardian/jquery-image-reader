@@ -11,4 +11,9 @@ A jQuery plugin that reading image fastly without need uploading to server
 ```js
 // JS
 $('#upload-file').imageReader();
+
+// or
+$('#upload-file').imageReader({
+  destination: '#image-preview'
+});
 ```
