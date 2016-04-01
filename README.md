@@ -1,2 +1,2 @@
-# jQuery Image Preview Plugin
-A jQuery plugin that preview image fastly without uploading to server
+# ImageReader.JS
+A jQuery plugin that reading image fastly without need uploading to server
