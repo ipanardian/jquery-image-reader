@@ -1,2 +1,2 @@
-# image-preview-js
-Fast image preview without uploading to server
+# jQuery Image Preview Plugin
+A jQuery plugin that preview image fastly without uploading to server
