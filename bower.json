@@ -6,6 +6,9 @@
   ],
   "description": "A jQuery plugin that reading image fastly without need uploading to server",
   "main": "jquery.imagereader.js",
+  "dependencies": {
+    "jquery": "2.2.x"
+  },
   "keywords": [
     "jquery",
     "plugin",
