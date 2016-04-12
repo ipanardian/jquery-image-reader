@@ -1,6 +1,9 @@
 # ImageReader.JS
 A jQuery plugin that reading image fastly without need uploading to server
 
+## Demo
+[http://indosystem.github.io/jquery-image-reader](http://indosystem.github.io/jquery-image-reader)
+
 ## Usage
 ```html
 <!-- HTML -->
