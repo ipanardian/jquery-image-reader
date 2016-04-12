@@ -4,7 +4,7 @@
   "authors": [
     "ipanardian <ipan.software@gmail.com>"
   ],
-  "description": "A jQuery plugin that reading image fastly without need uploading to server",
+  "description": "A jQuery plugin that previews image very fast without needing to upload to your server",
   "main": "jquery.imagereader.js",
   "dependencies": {
     "jquery": "2.2.x"
