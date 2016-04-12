@@ -23,5 +23,10 @@ $('#upload-file').imageReader({
 });
 ```
 
+## Install
+```
+bower install jquery-image-reader
+```
+
 ## Browser compatibility
 [https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility] (https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility)
