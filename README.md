@@ -1,5 +1,7 @@
-# ImageReader.JS
-A jQuery plugin that reading image fastly without need uploading to server
+# jQuery Image Reader
+A jQuery plugin that previews image very fast without needing to upload to your server.
+
+With this plugin you can avoid server uploads of raw user files, which I love.  You can also pre-treat content before you manually upload user content to your servers.
 
 ## Demo
 [http://indosystem.github.io/jquery-image-reader](http://indosystem.github.io/jquery-image-reader)
