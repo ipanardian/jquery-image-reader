@@ -21,6 +21,13 @@ $('#upload-file').imageReader();
 $('#upload-file').imageReader({
   destination: '#image-preview'
 });
+
+// callback
+$('#upload-file').imageReader({
+	onload: function() {
+		// your callback code
+	}
+});
 ```
 
 ## Install
