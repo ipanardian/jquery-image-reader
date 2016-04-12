@@ -21,6 +21,13 @@ $('#upload-file').imageReader();
 $('#upload-file').imageReader({
   destination: '#image-preview'
 });
+
+// callback
+$('#upload-file').imageReader({
+	onload: function() {
+		// your callback code
+	}
+});
 ```
 
 ## Install
@@ -30,3 +37,6 @@ bower install jquery-image-reader
 
 ## Browser compatibility
 [https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility] (https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility)
+
+## License
+The MIT License (MIT)
