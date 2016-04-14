@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Demo jQuery Image Reader</title>
+	<meta charset="UTF-8">
 </head>
 <style type="text/css" media="screen">
 	.wrap {
@@ -20,7 +21,10 @@
 $(document).ready(function(){
 	$('#upload-file').imageReader({
 		onload: function() {
-			console.log(this)
+			console.log({
+				width: this.width,
+				height: this.height
+			})
 		}
 	});
 });
