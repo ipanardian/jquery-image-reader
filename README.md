@@ -26,6 +26,10 @@ $('#upload-file').imageReader({
 $('#upload-file').imageReader({
 	onload: function() {
 		// your callback code
+		console.log({
+			width: this.width,
+			height: this.height
+		});
 	}
 });
 ```
@@ -36,6 +40,9 @@ bower install jquery-image-reader
 ```
 
 ## Browser compatibility
+The Source file is 100% impelemented ES6 while the minified version has transpiled by Babel.js
+Tested on Chrome 49, Safari 9.1, Firefox 43. 
+
 [https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility] (https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility)
 
 ## License

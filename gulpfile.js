@@ -1,11 +1,12 @@
 /**
- * Minify and uglify
- * Ipan Ardian
+ * Babel and uglify
+ * 2016 Ipan Ardian
  */
 
-var gulp = require('gulp');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
+var gulp = require('gulp'),
+	uglify = require('gulp-uglify'),
+	rename = require('gulp-rename'),
+	babel = require("gulp-babel");
 
 var paths = {
 	scripts : 'jquery.imagereader.js',
@@ -14,13 +15,14 @@ var paths = {
 
 gulp.task('default', function(){
 	return gulp.src(paths.scripts)
-			.pipe(uglify({
-				preserveComments: function (node, comment) {
-					return /\/\//.test(comment.value);
-				}
-			}))
-			.pipe(rename({
-				suffix: paths.suffix
-			}))
+		.pipe(babel())
+		.pipe(uglify({
+			preserveComments: function (node, comment) {
+				return /\/\//.test(comment.value);
+			}
+		}))
+		.pipe(rename({
+			suffix: paths.suffix
+		}))
 		.pipe(gulp.dest('./'));
 });
