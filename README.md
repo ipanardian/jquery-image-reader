@@ -1,4 +1,6 @@
 # jQuery Image Reader
+
+[![Join the chat at https://gitter.im/ipanardian/jquery-image-reader](https://badges.gitter.im/ipanardian/jquery-image-reader.svg)](https://gitter.im/ipanardian/jquery-image-reader?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A jQuery plugin that previews image very fast without needing to upload to your server.
 
 This plugin implement FileReader API so you can asynchronously read the contents and avoid server uploads of raw user files.  You can also pre-treat content before you manually upload user content to your servers.
@@ -41,7 +43,7 @@ bower install jquery-image-reader
 ```
 
 ## Browser compatibility
-The Uncompressed file implement new features from the JavaScript ECMA-262 specification (ES6) while the compressed file has transpiled using Babel.js into equivalent code.
+The Source file is 100% impelemented EcmaScript 2015 (ES6) while the minified version has transpiled using Babel.js into equivalent code.
  
 Tested on Chrome 49, Safari 9.1, Firefox 43. 
 
