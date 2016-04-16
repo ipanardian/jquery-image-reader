@@ -32,7 +32,7 @@
 	$.fn.imageReader = function (options) {
 		var defaults = {
 			destination: '#image-preview',
-			onload: () => {}
+			onload() {}
 		};
 		var settings = Object.assign(defaults, options);
 
@@ -54,7 +54,7 @@
 								var img = new Image();
 								img.src = e.target.result;
 								destination.append(img);
-								settings.onload.call(img);
+								settings.onload.call(this, img);
 							};
 							reader.readAsDataURL(file);
 						}

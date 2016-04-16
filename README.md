@@ -24,12 +24,13 @@ $('#upload-file').imageReader({
 
 // callback
 $('#upload-file').imageReader({
-	onload: function() {
+	onload: function(img) {
 		// your callback code
 		console.log({
-			width: this.width,
-			height: this.height
+			width: img.width,
+			height: img.height
 		});
+		$(img).css('margin-top', '20px');
 	}
 });
 ```
