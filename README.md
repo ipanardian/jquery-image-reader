@@ -41,7 +41,7 @@ bower install jquery-image-reader
 ```
 
 ## Browser compatibility
-The Source file is 100% impelemented EcmaScript 2015 (ES6) while the minified version has transpiled using Babel.js into equivalent code.
+The Uncompressed file implement new features from the JavaScript ECMA-262 specification (ES6) while the compressed file has transpiled using Babel.js into equivalent code.
  
 Tested on Chrome 49, Safari 9.1, Firefox 43. 
 
