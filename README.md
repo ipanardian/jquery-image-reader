@@ -2,7 +2,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ipanardian/jquery-image-reader/issues) 
 [![Join the chat at https://gitter.im/ipanardian/jquery-image-reader](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ipanardian/jquery-image-reader)
 [![Release](https://img.shields.io/badge/release-v1.0--beta-orange.svg)](https://github.com/ipanardian/jquery-image-reader/releases)
-[![Dependencies](https://img.shields.io/badge/dependecies-jQuery-blue.svg)](https://jquery.com/)
+[![Dependencies](https://img.shields.io/badge/dependencies-jQuery%202.x-blue.svg)](https://jquery.com/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://raw.githubusercontent.com/ipanardian/jquery-image-reader/master/LICENSE)
 [![HitCount](https://hitt.herokuapp.com/ipanardian/jquery-image-reader.svg)](https://github.com/ipanardian/jquery-image-reader)
 
@@ -50,7 +50,7 @@ bower install jquery-image-reader
 ## Browser compatibility
 The Uncompressed file implement new features from the JavaScript ECMA-262 specification (ES6) while the compressed file has transpiled using Babel.js into equivalent code.
  
-Tested on Chrome 49, Safari 9.1, Firefox 43. 
+Tested on Chrome 49, Safari 9.1, Firefox 43. Chrome and Firefox for Android. 
 
 [https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility] (https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility)
 
