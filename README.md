@@ -50,7 +50,7 @@ bower install jquery-image-reader
 ## Browser compatibility
 The Uncompressed file implement new features from the JavaScript ECMA-262 specification (ES6) while the compressed file has transpiled using Babel.js into equivalent code.
  
-Tested on Chrome 49, Safari 9.1, Firefox 43. 
+Tested on Chrome 49, Safari 9.1, Firefox 43. Chrome and Firefox for Android. 
 
 [https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility] (https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility)
 
