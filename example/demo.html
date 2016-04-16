@@ -20,11 +20,12 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	$('#upload-file').imageReader({
-		onload: function() {
+		onload: function(img) {
 			console.log({
-				width: this.width,
-				height: this.height
-			})
+				width: img.width,
+				height: img.height
+			});
+			$(img).css('margin-top', '20px');
 		}
 	});
 });
