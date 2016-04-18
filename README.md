@@ -44,7 +44,9 @@ $('#upload-file').imageReader({
 
 ## Install
 ```
-bower install jquery-image-reader
+bower install jquery-image-reader  
+
+npm i jquery-image-reader
 ```
 
 ## Browser compatibility
