@@ -29,12 +29,25 @@
 		factory(jQuery);
 	}
 }($ => {
+	'use strict';
+
 	$.fn.imageReader = function (options) {
 		var defaults = {
 			destination: '#image-preview',
 			onload() {}
 		};
 		var settings = Object.assign(defaults, options);
+		
+		var imageType = new Set([
+			'image/jpeg',
+			'image/jpg',
+			'image/png',
+			'image/gif',
+			'image/svg+xml',
+			'image/bmp',
+			'image/x-icon',
+			'image/vnd.microsoft.icon'
+		]);
 
 		if ('FileReader' in window) {
 
@@ -44,19 +57,23 @@
 					var destination = $(settings.destination);
 					destination.html('');
 
-					for(var x = 0, xlen = this.files.length; x < xlen; x++) {
+					for(let x = 0, xlen = this.files.length; x < xlen; x++) {
 						file = this.files[x];
 						
-						if(file.type.indexOf('image') != -1) { 
-							
-							var reader = new FileReader();
-							reader.onload = e => {
-								var img = new Image();
-								img.src = e.target.result;
-								destination.append(img);
-								settings.onload.call(this, img);
-							};
-							reader.readAsDataURL(file);
+						if(imageType.has(file.type)) { 
+							try {
+								let reader = new FileReader();
+								reader.onload = e => {
+									let img = new Image();
+									img.src = e.target.result;
+									destination.append(img);
+									settings.onload.call(this, img);
+								};
+								reader.readAsDataURL(file);
+							}
+							catch (err) {
+								throw new Error(err.message); 
+							}
 						}
 					}
 				});
