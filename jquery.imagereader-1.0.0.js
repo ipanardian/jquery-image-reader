@@ -1,5 +1,5 @@
 /**
-*  jQuery Image Reader v1.0-beta
+*  jQuery Image Reader v1.0.0
 *  (c) 2016 Ipan Ardian
 *
 *  A jQuery plugin that previews image very fast without needing to upload to your server
