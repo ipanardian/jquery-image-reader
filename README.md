@@ -49,6 +49,7 @@ $('#upload-file').imageReader({
 	    ctx.fillText("jQuery Image Reader", 10, 30);
 	}
 });
+```
 
 ## Install
 ```
