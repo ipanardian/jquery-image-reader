@@ -3,14 +3,17 @@
  * 2016 Ipan Ardian
  */
 
+const VERSION = '1.0.0'
+
 var gulp = require('gulp'),
 	uglify = require('gulp-uglify'),
 	rename = require('gulp-rename'),
 	babel = require("gulp-babel");
 
 var paths = {
-	scripts : 'jquery.imagereader.js',
-	suffix : '.min'
+	scripts : 'jquery.imagereader-'+VERSION+'.js',
+	suffix : '.min',
+	dest : './'
 };
 
 gulp.task('default', function(){
@@ -24,5 +27,5 @@ gulp.task('default', function(){
 		.pipe(rename({
 			suffix: paths.suffix
 		}))
-		.pipe(gulp.dest('./'));
+		.pipe(gulp.dest(paths.dest));
 });
