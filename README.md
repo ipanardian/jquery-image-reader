@@ -11,7 +11,7 @@ A jQuery plugin that previews image very fast without needing to upload to your 
 This plugin implement FileReader API so you can asynchronously read the contents and avoid server uploads of raw user files.  You can also pre-treat content like fill text or pixel manipulation before you manually upload user content to your servers.
 
 ## Demo
-[http://indosystem.github.io/jquery-image-reader](http://indosystem.github.io/jquery-image-reader)
+[http://ipanardian.github.io/jquery-image-reader](http://ipanardian.github.io/jquery-image-reader)
 
 ## Usage
 ```html
@@ -40,10 +40,10 @@ $('#upload-file').imageReader({
 // Canvas
 $('#upload-file').imageReader({
   renderType: 'canvas',
-  onload: function(img) {
+  onload: function(canvas) {
 		// do some cool things with canvas
 		// fill text or pixel manipulation
-		var ctx = img.getContext('2d');
+		var ctx = canvas.getContext('2d');
 	    ctx.font = "20px Verdana";
 	    ctx.fillStyle = "blue";
 	    ctx.fillText("jQuery Image Reader", 10, 30);

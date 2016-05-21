@@ -31,16 +31,16 @@
       $(document).ready(function(){
         $('#upload-file').imageReader({
           renderType: 'canvas',
-          onload: function(img) {
-            var ctx = img.getContext('2d');
-            var maxWidth = img.width - 10;
+          onload: function(canvas) {
+            var ctx = canvas.getContext('2d');
+            var maxWidth = canvas.width - 10;
             ctx.font = "20px Verdana";
             ctx.fillStyle = "blue";
             ctx.fillText("jQuery Image Reader", 10, 30, maxWidth);
             ctx.font = "12px Verdana";
             ctx.fillText("Filename : "+ this.name, 10, 60, maxWidth);
-            ctx.fillText("Dimension : "+ img.width +' x '+ img.height +' px', 10, 80, maxWidth);
-            $(img).css('margin-top', '20px');
+            ctx.fillText("Dimension : "+ canvas.width +' x '+ canvas.height +' px', 10, 80, maxWidth);
+            $(canvas).css('margin-top', '20px');
           }
         });
       });
