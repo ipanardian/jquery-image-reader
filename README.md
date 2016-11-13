@@ -4,7 +4,7 @@
 [![Release](https://img.shields.io/badge/release-v1.0.0-orange.svg)](https://github.com/ipanardian/jquery-image-reader/releases)
 [![Dependencies](https://img.shields.io/badge/dependencies-jQuery%202.x-blue.svg)](https://jquery.com/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://raw.githubusercontent.com/ipanardian/jquery-image-reader/master/LICENSE)
-[![HitCount](https://hitt.herokuapp.com/ipanardian/jquery-image-reader.svg)](https://github.com/ipanardian/jquery-image-reader)
+[![npm](https://img.shields.io/npm/dt/jquery-image-reader.svg)]()
 
 A jQuery plugin that previews image very fast without needing to upload to your server.
 
