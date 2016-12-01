@@ -1,6 +1,6 @@
 {
   "name": "jquery-image-reader",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A jQuery plugin that previews image very fast without needing to upload to your server.",
   "main": "gulpfile.js",
   "directories": {
