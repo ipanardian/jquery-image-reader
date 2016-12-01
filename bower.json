@@ -9,6 +9,9 @@
   "dependencies": {
     "jquery": "3.x"
   },
+  "resolutions": {
+    "jquery": "3.x"
+  },
   "keywords": [
     "jquery",
     "plugin",
