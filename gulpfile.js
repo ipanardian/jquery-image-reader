@@ -3,7 +3,7 @@
  * 2016 Ipan Ardian
  */
 
-const VERSION = '1.0.0'
+const VERSION = '1.1.0'
 
 var gulp = require('gulp'),
 	uglify = require('gulp-uglify'),

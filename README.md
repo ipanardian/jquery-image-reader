@@ -1,6 +1,6 @@
 # jQuery Image Reader
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ipanardian/jquery-image-reader/issues) 
-[![Release](https://img.shields.io/badge/release-v1.0.0-orange.svg)](https://github.com/ipanardian/jquery-image-reader/releases)
+[![Release](https://img.shields.io/badge/release-v1.1.0-orange.svg)](https://github.com/ipanardian/jquery-image-reader/releases)
 [![Dependencies](https://img.shields.io/badge/dependencies-jQuery%203.x-blue.svg)](https://jquery.com/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://raw.githubusercontent.com/ipanardian/jquery-image-reader/master/LICENSE)
 [![npm](https://img.shields.io/npm/dt/jquery-image-reader.svg)]()
