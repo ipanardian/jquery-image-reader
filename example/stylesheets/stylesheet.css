@@ -243,3 +243,79 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.drop {
+  background-color: #fff; }
+.drop:after {
+  border: dashed 0.3rem rgba(0, 0, 0, 0.0875); }
+.drop .drop-label {
+  color: rgba(0, 0, 0, 0.0875); }
+.drop:hover:after {
+  border-color: rgba(0, 0, 0, 0.125); }
+.drop:hover .drop-label {
+  color: rgba(0, 0, 0, 0.125); }
+
+#image-preview,.image-preview {
+  background-color: #000; }
+.drop {
+  min-width: 200px;
+  min-height: 20rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0; }
+.drop:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0; }
+.drop.file-focus {
+  border: 0; }
+.drop:hover {
+  cursor: pointer; }
+.drop .drop-label {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 4rem;
+  width: 32rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -1.5rem;
+  left: 50%;
+  margin-left: -16rem; }
+.drop input[type=file] {
+  line-height: 50rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 10;
+  cursor: pointer; }
+
+#image-preview, .image-preview {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1; }
+#image-preview:empty, .image-preview:empty {
+  display: none; }
+#image-preview img,.image-preview img {
+  display: block;
+  margin: 0 auto;
+  width: 100%}
+#image-preview:after, .image-preview:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border: solid 0.1rem rgba(0, 0, 0, 0.08);
+  background: bottom center repeat-x url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABfCAMAAAAeT108AAABEVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoX7lMAAAAW3RSTlMBCHwGAwQFCgIMCw4PERITFBYXGRoNHR4gISIlJicpKiwuLzEzNDY3OTs8G0BBQ0VGSEpLTU9QUVRVVlhZW11eX2FiZGVmaGlrbG1ucHFyc3R1dnd4eXp7Pn1+eLXrxAAAADRJREFUCFtjYAACDmYGJkYmRiDJAMJMbEzMTP+ZeJgZmTChOFZR7FAPYi71IQMT0JXhTIwAN8YCxDyw89IAAAAASUVORK5CYII=); }
