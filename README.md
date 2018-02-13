@@ -10,7 +10,7 @@ A jQuery plugin that previews image very fast without needing to upload to your 
 This plugin implement FileReader API so you can asynchronously read the contents and avoid server uploads of raw user files.  You can also pre-treat content like fill text or pixel manipulation before you manually upload user content to your servers.
 
 ## Demo
-[http://ipanardian.github.io/jquery-image-reader](http://ipanardian.github.io/jquery-image-reader)
+<a href="http://ipanardian.github.io/jquery-image-reader" target="_blank" title="Demo jQuery Image Reader">http://ipanardian.github.io/jquery-image-reader</a>
 
 ## Usage
 ```html
@@ -62,7 +62,7 @@ The Uncompressed file implement new features from the JavaScript ECMA-262 specif
  
 Tested on Chrome 49, Safari 9.1, Firefox 43. Chrome and Firefox for Android. iPhone 5 & 6s
 
-[https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility] (https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility)
+[https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility](https://developer.mozilla.org/en-US/docs/Web/API/FileReader#Browser_compatibility)
 
 ## License
 The MIT License (MIT)
