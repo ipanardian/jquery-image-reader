@@ -5,7 +5,8 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](https://raw.githubusercontent.com/ipanardian/jquery-image-reader/master/LICENSE)
 [![npm](https://img.shields.io/npm/dt/jquery-image-reader.svg)]()
 
-A jQuery plugin that previews image very fast without needing to upload to your server. Just drag and drop it then images will be previewed.
+A Jquery plugin for fast image previewing, without any need to upload image to your server.
+Just drag and drop to see your image preview!
 
 This plugin implement FileReader API so you can asynchronously read the contents and avoid server uploads of raw user files.  You can also pre-treat content like fill text or pixel manipulation before you manually upload user content to your servers.
 
